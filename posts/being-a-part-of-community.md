@@ -1,6 +1,6 @@
 ---
 title: Being a part of community
-date: "2019-06-21T23:46:37.121Z"
+date: "2019-06-21"
 template: "post"
 draft: false
 slug: "being-a-part-of-community"
@@ -11,7 +11,7 @@ tags:
 description: "For a long time I wanted to write about communities, meetups and public speaking. Recently I found an excuse to do it and this is my first post in a series dedicated to everyone who needs motivation in doing their first steps towards being a part of community."
 socialImage: "/media/jszgb-cover.jpg"
 ---
-![Many people watching a projector while another person is giving a presentation](/media/jszgb-cover.jpg)
+![Many people watching a projector while another person is giving a presentation](./static/../../static/jszgb-cover.jpeg)
 
 
 Recently I came across a [post](https://www.linkedin.com/feed/update/urn:li:activity:6544860411970359296) from Antonio where he said he is writing a post about his experiences with public speaking. Him mentioning public speaking got my wheels turning, and I remembered my first time doing public speaking at a local programming meetup and how much it meant for me and where it got me.
