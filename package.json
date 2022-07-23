@@ -1,0 +1,23 @@
+{
+  "name": "vedran.co",
+  "version": "1.0.0",
+  "description": "✌️ Always be learning",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node ./src/@mashina/builder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vblazenka/vedran.co.git"
+  },
+  "author": "Vedran Blazenka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vblazenka/vedran.co/issues"
+  },
+  "homepage": "https://github.com/vblazenka/vedran.co#readme",
+  "dependencies": {
+    "showdown": "^2.1.0"
+  }
+}

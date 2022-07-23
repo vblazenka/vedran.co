@@ -1,16 +1,3 @@
----
-title: Being a part of community
-date: "2019-06-21"
-template: "post"
-draft: false
-slug: "being-a-part-of-community"
-category: "Community"
-tags:
-  - "Community"
-  - "JavaScript Zagreb"
-description: "For a long time I wanted to write about communities, meetups and public speaking. Recently I found an excuse to do it and this is my first post in a series dedicated to everyone who needs motivation in doing their first steps towards being a part of community."
-socialImage: "/media/jszgb-cover.jpg"
----
 ![Many people watching a projector while another person is giving a presentation](./static/../../static/jszgb-cover.jpeg)
 
 
