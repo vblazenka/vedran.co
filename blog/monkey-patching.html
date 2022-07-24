@@ -1,0 +1,8 @@
+<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Vedran Blaženka - Software Developer</title>    <link rel="stylesheet" href="../src/styles/styles.css">    <link rel="stylesheet" href="../src/styles/blog.css">    <link rel="preload" href="../src/styles/prism.css" as="style" onload="this.onload=null;this.rel='stylesheet'"></head><body class="Blog">    <header>        <div class="navigation">            <a href="../index.html">👈 Go back</a>        </div>    </header>    <main class="post"><h1 id="monkeypatching">Monkey patching</h1>
+<p>Monkey patching is a mechanism we can use when we want to override some existing function or a module.</p>
+<pre><code class="javascript language-javascript">import utils from './utils'
+
+utils.processList = (list) =&gt; {
+    // our custom implementation
+}
+</code></pre>    </main>    <script src="../src/scripts/prism.js"></script>    <noscript>        <link rel="stylesheet" href="../src/styles/prism.css">    </noscript></body></html>
