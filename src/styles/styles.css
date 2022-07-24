@@ -12,6 +12,7 @@ body {
     padding: 0 1rem;
     font-weight: 400;
     line-height: 1.7;
+    color: 111827;
 }
 
 p {
@@ -19,6 +20,7 @@ p {
 }
 
 a {
+    color: #10b981  ;
     text-decoration: none;
 }
 
@@ -48,5 +50,6 @@ pre {
 }
 
 .bio {
+    line-height: 1;
     margin-bottom: 4rem;
 }

@@ -1,5 +1,6 @@
-![Many people watching a projector while another person is giving a presentation](./static/../../static/jszgb-cover.jpeg)
+![Many people watching a projector while another person is giving a presentation](../src/static/jszgb-cover.jpeg)
 
+# Being a part of community
 
 Recently I came across a [post](https://www.linkedin.com/feed/update/urn:li:activity:6544860411970359296) from Antonio where he said he is writing a post about his experiences with public speaking. Him mentioning public speaking got my wheels turning, and I remembered my first time doing public speaking at a local programming meetup and how much it meant for me and where it got me.
 

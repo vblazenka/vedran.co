@@ -5,8 +5,18 @@ export function getFilenameWithoutExtension(fileName) {
     return fileName.substr(0, fileName.lastIndexOf('.'))
 }
 
-export async function getBlogPostTemplate() {
-    const blogPostTemplatePath = path.join(process.cwd(), 'src', 'pages', 'blog-post.html')
+// https://titleconsole.com/capitalization-in-blog-post-titles
+export function getFormattedPostTitle(title) {
+    const capitalizationBlacklist = ['a', 'an', 'the', 'in', 'to', 'on', 'to', 'of', 'up', 'by', 'via']
 
-    return await readFile(blogPostTemplatePath, 'utf-8', (error, content) => content)
+    return title.split("-").map(str => {
+        const isBlacklisted = capitalizationBlacklist.find(s => s === str)
+
+        if (isBlacklisted) {
+            return str
+        }
+
+        // uppercase first character
+        return str.charAt(0).toUpperCase() + str.slice(1)
+    }).join(" ")
 }
