@@ -1,0 +1,11 @@
+User-agent: Googlebot
+Disallow: 
+User-agent: googlebot-mobile
+Disallow: 
+User-agent: MSNBot
+Disallow: 
+User-agent: Slurp
+Disallow: 
+User-agent: *
+Disallow: /cgi-bin/
+Sitemap: https://vedran.co/sitemap.xml
