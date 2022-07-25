@@ -21,13 +21,43 @@
 
     <main class="post">
 <h1 id="monkeypatching">Monkey patching</h1>
-<p>Monkey patching is a mechanism we can use when we want to override some existing function or a module.</p>
-<pre><code class="javascript language-javascript">import utils from './utils'
+<p>Monkey patching is a mechanism we can use to replace or extend some piece of code at runtime.
+A lot of times it is used for overriding methods in third-party libraries or for mocking when writing unit tests.</p>
+<p>As an example, let's say we want to add logging to the <code>add</code> method of a math library.</p>
+<pre><code class="javascript language-javascript">import MathLib from 'mathlib';
 
-utils.processList = (list) =&gt; {
-    // our custom implementation
+const mathLib = new MathLib();
+const res = mathLib.add(2, 3);
+
+// we can keep original implementation if we want to
+// restore original implementation later on
+// const originalAdd = mathLib.add;
+
+// Let's override (monkey patch) original add
+// method and replace it with our own implementation
+// that supports logging
+mathLib.add = function(a, b) {
+    console.log(`You are adding ${a} and ${b}.`);
+    return a + b;
 }
 </code></pre>
+<p>👍 <strong>Pros:</strong></p>
+<ul>
+<li>useful for mocking during unit testing (libraries usually provide a way to do it properly)</li>
+<li>workaround for bugs in third-party code</li>
+<li>add code logging/analysis libraries to existing code</li>
+</ul>
+<p>👎 <strong>Cons:</strong></p>
+<ul>
+<li>creates a discrepancy between original source code and observable behaviour in the written code</li>
+<li>hard to debug issues due to the discrepancy mentioned in the previous point</li>
+</ul>
+<h2 id="practicetime">Practice time</h2>
+<ul>
+<li>What is monkey patching?</li>
+<li>What are some scenarios where you could use monkey patching?</li>
+<li>What are the downsides of using monkey patching?</li>
+</ul>
     </main>
 
     <script src="../src/scripts/prism.js"></script>
