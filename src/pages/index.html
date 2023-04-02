@@ -13,22 +13,40 @@
     <link rel="stylesheet" href="src/styles/styles.css">
 </head>
 
-<body class="Home">
-    <header>
-        <h1>Hi 👋 , I'm Vedran!</h1>
-        <div class="bio">
-            <p>👨‍💻 Software developer with broad range of interests</p>
-            <p>👉 computer science, math, people, products, ux</p>
-            <p>✌️ Always be learning!</p>
-        </div>
-    </header>
+<body class="home">
 
-    <main>
-        <h2>✍️ Journal</h2>
-        <ul class="post-list">
-            {{ posts }}
-        </ul>
-    </main>
+    <h1 class="home__title">SOFTWARE DEVELOPER WITH BROAD RANGE OF INTERESTS </h1>
+
+<main>
+
+    
+
+    <div class="content">
+        <div class="content__column bio">
+            <h2>Information</h2>
+            <p>Hi, I'm Vedran.</p>
+            <p>Living in Croatia, interested in many things like software engineering, math, people, ux and products.</p>
+        </div>
+
+        <div class="content__column notes">
+            <h2>Notes</h2>
+            <ul class="post-list">
+                {{ posts }}
+            </ul>
+        </div>
+
+         <div class="content__column social">
+             <>Social</h2>
+             <ul>
+                <li><a href="https://github.com/vblazenka" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/vblazenka/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://dribbble.com/vedranco" target="_blank">Dribbble</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+</main>
 </body>
 
 </html>
