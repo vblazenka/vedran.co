@@ -21,9 +21,9 @@
 
     <main class="post">
 <h1 id="monkeypatching">Monkey patching</h1>
-<p>Monkey patching is a mechanism we can use to replace or extend some piece of code at runtime.
-A lot of times it is used for overriding methods in third-party libraries or for mocking when writing unit tests.</p>
-<p>As an example, let's say we want to add logging to the <code>add</code> method of a math library.</p>
+<p>Monkey patching is a powerful yet controversial technique in programming, often used to modify or extend the functionality of an object, method, or class at runtime. While it's a convenient solution for handling third-party library inconsistencies or performing unit testing, it should be used judiciously due to the potential for introducing subtle bugs or making your code more difficult to understand and maintain.</p>
+<p>The name "monkey patching" comes from the phrase "monkey with", meaning to tamper or fiddle with something. In programming, you are essentially "tampering with" or changing parts of a module or class without altering the original source code.</p>
+<p>To illustrate this, consider a situation where you want to add logging functionality to the 'add' method of a math library:</p>
 <pre><code class="javascript language-javascript">import MathLib from 'mathlib';
 
 const mathLib = new MathLib();
@@ -41,17 +41,21 @@ mathLib.add = function(a, b) {
     return a + b;
 }
 </code></pre>
+<p>This example illustrates the flexibility of monkey patching. Without having access to the source code of 'MathLib', we are able to introduce new behavior (logging) to an existing method.</p>
 <p>👍 <strong>Pros:</strong></p>
 <ul>
-<li>useful for mocking during unit testing (libraries usually provide a way to do it properly)</li>
-<li>workaround for bugs in third-party code</li>
-<li>add code logging/analysis libraries to existing code</li>
+<li><strong>Useful for mocking during unit testing:</strong> Some testing libraries leverage monkey patching to replace methods with mock versions that make testing more isolated and predictable.</li>
+<li><strong>Bypassing bugs in third-party code:</strong> If there's a bug in a library you don't control, you could monkey patch a fix without waiting for the library maintainers to update it.</li>
+<li><strong>Dynamic behavior changes:</strong> Monkey patching can be used to add or change the behavior of objects at runtime, such as logging, profiling, or other runtime analysis.</li>
 </ul>
 <p>👎 <strong>Cons:</strong></p>
 <ul>
-<li>creates a discrepancy between original source code and observable behaviour in the written code</li>
-<li>hard to debug issues due to the discrepancy mentioned in the previous point</li>
+<li><strong>Code discrepancy:</strong> Monkey patching creates a discrepancy between the original source code and the observable behavior in the written code, which can lead to confusion for other developers.</li>
+<li><strong>Debugging complexity:</strong> It can be hard to trace or debug issues due to the discrepancy mentioned above. When the behavior of methods isn't what's expected based on the source code, it can take a long time to realize that a monkey patch is the cause.</li>
+<li><strong>Maintenance issues:</strong> If the underlying library changes, your monkey patches might break or start to exhibit unexpected behavior.
+Namespace clashes: If two pieces of code monkey patch the same method but aren't aware of each other, they may interfere with each other, causing unexpected behavior or bugs.</li>
 </ul>
+<p>The technique is often considered a 'hack' or a 'kludge', and as such, many developers advise to use it sparingly, if at all. It's important to remember that the better the design of your codebase is, the less likely you'll need to rely on techniques like monkey patching. When you do need to use it, be sure to document your code thoroughly to help maintain readability and ease of debugging.</p>
 <h2 id="practicetime">Practice time</h2>
 <ul>
 <li>What is monkey patching?</li>
