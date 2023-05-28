@@ -1,42 +1,34 @@
 ![Many people watching a projector while another person is giving a presentation](../src/static/jszgb-cover.jpeg)
 
-# Being a part of community
+# Being a Part of the Community
 
-Recently I came across a [post](https://www.linkedin.com/feed/update/urn:li:activity:6544860411970359296) from Antonio where he said he is writing a post about his experiences with public speaking. Him mentioning public speaking got my wheels turning, and I remembered my first time doing public speaking at a local programming meetup and how much it meant for me and where it got me.
+Recently, I stumbled upon a [post](https://www.linkedin.com/feed/update/urn:li:activity:6544860411970359296) by Antonio, in which he mentioned his experiences with public speaking. This triggered some personal memories of my first public speaking experience at a local programming meetup, and the substantial impact it had on my career.
 
-My response was:
-> I did my first public speaking gig in 2016 in local meetup and it made a huge difference in my career because I got approached by a lot of cool people, expanded my network and got nice offers. Since then I had a few more similar gigs through which I learned how to communicate better, learned how to learn and teach more efficiently, better speaking skills which reflects on how I speak with managers and clients which results in better job positions. To this day it's always hard in stomach before a talk and I still do a lot of mistakes but the feeling after it is always worth coming back for.
+Here was my response:
+> I did my first public speaking gig in 2016 at a local meetup. It made a huge difference in my career. I was approached by a number of fascinating people, expanded my network, and received attractive offers. Since then, I've had a few more similar gigs, through which I have improved my communication skills, learned how to learn and teach more efficiently, and enhanced my speaking abilities, which reflect in my interactions with managers and clients, resulting in better job positions. To this day, I still feel butterflies in my stomach before a talk, and despite the mistakes I make, the feeling of fulfillment afterward always keeps me coming back for more.
 
-But I forgot to mention, now I'm co-organizer of the same meetup where I held my first talk and I help with some other cool projects such as [NodeSchool](https://nodeschool.io/zagreb).
+However, I forgot to mention that I'm now a co-organizer of the same meetup where I held my first talk, and I'm involved in some other amazing projects such as [NodeSchool](https://nodeschool.io/zagreb).
 
-## Interested in giving a talk?
-I would like to encourage everyone to open up a meetup.com, search for meetups in your town and try visiting them a few times to get to know the people.
-Try to find organizers and ask them questions about what they would love to hear about.
-Remember, some hard problem you solved in the past and try to find a theme in that and apply to that meetup.
+## Interested in Giving a Talk?
+I would encourage everyone to visit meetup.com, search for meetups in your town, and try attending them a few times to familiarize yourself with the community. Try to connect with the organizers and ask them what they would love to hear about. Reflect on a challenging problem you've solved in the past, find a theme within it, and propose a talk to the meetup group.
 
-Recently on our [JavaScript Zagreb #49](https://www.meetup.com/JavaScript-Zagreb/events/261264086/) meetup colleague gave a talk about how he used Serverless, NodeJS and AWS to write a script that helped him find an apartment in Zagreb. Audience feedback was positive and most of them enjoyed the talk because it was short and practical. Keep in mind that people can't focus for a long time and you will bore them if you go in too much details for more than 25min.
+Recently at our [JavaScript Zagreb #49](https://www.meetup.com/JavaScript-Zagreb/events/261264086/) meetup, a colleague discussed how he used Serverless, NodeJS, and AWS to write a script that helped him find an apartment in Zagreb. The audience's feedback was positive, and most attendees enjoyed the talk because it was concise and practical. Bear in mind that people have limited attention spans, so try to avoid delving too deeply into minutiae for more than 25 minutes.
 
-**Don't do the talk if everything you show can be read online in 15 minutes.**
+**Avoid presenting on topics that can be read online within 15 minutes.**
 
-## Interested in attending?
-Even if you are not speaking (you should try) being a part of community is a good feeling because you will meet new friends, learn new things, increase your empathy and stabilize your ego.
-Empathy is a capacity to understand and feel other person. There is no better way to grow your empathy skills than by surrounding yourself with other people and practice those skills.
-Ego is another big thing. We all know about how ego can stand in a way and make us feel bad or do the wrong things. Imagine being surrounded with a lot of smart people that can serve as a reference
-to where you are in your career or how much knowledge you have. These informations can help compare yourself with others and you can see in which direction you need to go and which skills you need to improve.
+## Interested in Attending?
+Even if you're not speaking (although you should give it a try), being part of a community feels wonderful. You'll make new friends, learn new things, enhance your empathy, and keep your ego in check. Empathy is the ability to understand and feel what another person is experiencing. There's no better way to cultivate your empathy than by surrounding yourself with diverse people and practicing empathy skills. Ego can often obstruct us and cause discomfort. Being amongst a group of knowledgeable individuals serves as a reality check, providing a benchmark for your career and knowledge base. This information can help you assess yourself, identify areas for improvement, and determine your future course of action.
 
-> Don't be afraid of others judging you based on your knowledge. Nobody knows everything. Nobody knows what they're doing. You probably know some things they don't! ;)
+> Don't fear judgement based on your knowledge. Nobody knows everything. You probably have insights others lack! ;)
 
 ## Introverted?
-I was on this train before, but remember that the only way to beat something is to come face-to-face with it and win.
-Sometimes I was avoiding crowded places trying to be alone and I would never feel comfortable with other people to that
-point I thought I don't like people.
-But when I started working, it forced me to talk with my colleagues and clients and I got to love it and doing first public speaking gig made all the difference.
-Now I can't imagine who I was before and I would love to work more with people and I'm doing it every day. This post is also my way of trying to communicate with more people.
+I've been there, but remember, the only way to conquer a fear is to confront it head-on. I used to avoid crowded places, preferring solitude, and never felt at ease with others, to the point where I believed I didn't like people. However, when I started working, interacting with my colleagues and clients became a necessity, and surprisingly, I began to enjoy it. My first public speaking engagement was a game-changer. Now, I can't imagine who I was before, and I love interacting with people, which I do every day. This post is also my attempt to reach out and connect with more people.
 
-### Things worth checking out
+### Worthwhile Resources
 * [Post: Nobody knows what the hell they are doing](https://99u.adobe.com/articles/32985/nobody-knows-what-the-hell-they-are-doing)
 * [Post: Confessions Of An Impostor](https://www.smashingmagazine.com/2017/10/confessions-impostor-syndrome/)
 * [Video: Why incompetent people think they're amazing](https://www.youtube.com/watch?v=pOLmD_WVY-E)
 * [List of tech meetups and conferences in Croatia](https://www.github.com/vblazenka/awesome-croatia)
 * [JavaScript Zagreb Meetup](https://www.meetup.com/JavaScript-Zagreb/)
 * [NodeSchool Zagreb](https://nodeschool.io/zagreb)
+
